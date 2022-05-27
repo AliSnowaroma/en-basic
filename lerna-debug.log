@@ -1,0 +1,21 @@
+0 silly argv {
+0 silly argv   _: [ 'updated' ],
+0 silly argv   lernaVersion: '5.0.0',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v5.0.0
+2 verbose rootPath F:\job\template\en-basic
+3 info versioning independent
+4 error JSONError: Unexpected string in JSON at position 674 while parsing '{  "name": "qd-eslint",  "version": ' in packages\qd-eslint\package.json
+4 error
+4 error [0m [90m 31 |[39m     [32m"registry"[39m[33m:[39m [32m"https://registry.npmjs.org/"[39m[0m
+4 error [0m [90m 32 |[39m   }[0m
+4 error [0m[31m[1m>[22m[39m[90m 33 |[39m   [32m"files"[39m[33m:[39m [[0m
+4 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+4 error [0m [90m 34 |[39m     [32m"lib"[39m[0m
+4 error [0m [90m 35 |[39m   ][33m,[39m[0m
+4 error [0m [90m 36 |[39m   [32m"scripts"[39m[33m:[39m {[0m
+4 error
+4 error     at parseJson (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_parse-json@5.2.0@parse-json\index.js:29:21)
+4 error     at parse (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_load-json-file@6.2.0@load-json-file\index.js:15:9)
+4 error     at module.exports (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_load-json-file@6.2.0@load-json-file\index.js:18:47)
