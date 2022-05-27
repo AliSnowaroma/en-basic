@@ -6,14 +6,30 @@
     "javascript",
     "typescript"
   ],
-  "author": "yuchen <louweizhen@ifugle.com>",
-  "homepage": "",
-  "license": "ISC",
   "main": "lib/qd-eslint.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
+  "author": {
+    "name": "前端361",
+    "email": "qdmoment361@sina.com"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/AliSnowaroma/en-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AliSnowaroma/en-basic/issues/new"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10",
+    "yarn": ">=1.22"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
   "files": [
     "lib"
   ],

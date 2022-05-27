@@ -9,7 +9,7 @@ react eslint自动校验集成库，开箱即用
 ```js
 module.exports = {
   extends: [
-    "qd-eslint",
+    require.resolve("qd-eslint"),
   ],
   settings: {
     react: {
