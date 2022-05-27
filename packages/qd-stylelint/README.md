@@ -12,7 +12,7 @@ module.exports = {
     'qd-stylelint',
   ],
   rules: {
-
+    // 自定义规则
   },
 }
 ```
