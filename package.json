@@ -1,0 +1,26 @@
+{
+  "name": "en-basic",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  },
+  "author": {
+    "name": "前端361",
+    "email": "qdmoment361@sina.com"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/AliSnowaroma/en-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AliSnowaroma/en-basic/issues/new"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10",
+    "yarn": ">=1.22"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
