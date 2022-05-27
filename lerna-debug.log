@@ -1,21 +1,24 @@
 0 silly argv {
-0 silly argv   _: [ 'updated' ],
+0 silly argv   _: [ 'version' ],
 0 silly argv   lernaVersion: '5.0.0',
 0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js'
 0 silly argv }
 1 notice cli v5.0.0
 2 verbose rootPath F:\job\template\en-basic
 3 info versioning independent
-4 error JSONError: Unexpected string in JSON at position 674 while parsing '{  "name": "qd-eslint",  "version": ' in packages\qd-eslint\package.json
-4 error
-4 error [0m [90m 31 |[39m     [32m"registry"[39m[33m:[39m [32m"https://registry.npmjs.org/"[39m[0m
-4 error [0m [90m 32 |[39m   }[0m
-4 error [0m[31m[1m>[22m[39m[90m 33 |[39m   [32m"files"[39m[33m:[39m [[0m
-4 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
-4 error [0m [90m 34 |[39m     [32m"lib"[39m[0m
-4 error [0m [90m 35 |[39m   ][33m,[39m[0m
-4 error [0m [90m 36 |[39m   [32m"scripts"[39m[33m:[39m {[0m
-4 error
-4 error     at parseJson (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_parse-json@5.2.0@parse-json\index.js:29:21)
-4 error     at parse (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_load-json-file@6.2.0@load-json-file\index.js:15:9)
-4 error     at module.exports (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_load-json-file@6.2.0@load-json-file\index.js:18:47)
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 error Error: Command failed with exit code 1: git remote update
+10 error fatal: unable to access 'https://AliSnowaroma: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@github.com/AliSnowaroma/en-basic.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+10 error error: Could not fetch origin
+10 error Fetching origin
+10 error     at makeError (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_execa@5.1.1@execa\lib\error.js:60:11)
+10 error     at Function.module.exports.sync (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_execa@5.1.1@execa\index.js:194:17)
+10 error     at Object.execSync (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_@lerna_child-process@5.0.0@@lerna\child-process\index.js:39:16)
+10 error     at updateRemote (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_@lerna_version@5.0.0@@lerna\version\lib\is-behind-upstream.js:34:16)
+10 error     at isBehindUpstream (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_@lerna_version@5.0.0@@lerna\version\lib\is-behind-upstream.js:16:3)
+10 error     at VersionCommand.initialize (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_@lerna_version@5.0.0@@lerna\version\index.js:153:9)

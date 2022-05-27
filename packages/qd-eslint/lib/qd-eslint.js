@@ -1,5 +1,4 @@
 'use strict';
-// const globals = {};
 
 const baseRules = {
   camelcase: "error",
