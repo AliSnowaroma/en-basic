@@ -6,3 +6,4 @@
 
 - qd-eslint
 - qd-stylelint
+- qd-scripts

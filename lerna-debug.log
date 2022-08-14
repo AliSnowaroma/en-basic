@@ -13,7 +13,7 @@
 8 silly remoteBranchExists
 9 silly isBehindUpstream
 10 error Error: Command failed with exit code 1: git remote update
-10 error fatal: unable to access 'https://AliSnowaroma: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@github.com/AliSnowaroma/en-basic.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+10 error fatal: unable to access 'https://AliSnowaroma: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@github.com/AliSnowaroma/en-basic.git/': The requested URL returned error: 429
 10 error error: Could not fetch origin
 10 error Fetching origin
 10 error     at makeError (C:\Users\lwz\AppData\Roaming\nvm\v16.12.0\node_modules\lerna\node_modules\_execa@5.1.1@execa\lib\error.js:60:11)
