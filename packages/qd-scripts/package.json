@@ -17,7 +17,8 @@
   },
   "files": [
     "lib",
-    "commander"
+    "commander",
+    "bundle.js"
   ],
   "author": {
     "name": "前端361",
