@@ -49547,7 +49547,7 @@ class CommandSet {
     const self = this;
     const language = await this.checkLanguage();
     console.log('language', language);
-    this.templatePath = path.join(__dirname, `../../packages/qd-scripts/lib/template/${language}`);
+    this.templatePath = path.join(__dirname, `../qd-scripts/lib/template/${language}`);
     try {
       //const spinner = ora(chalk.green('正在生成项目配置文件')).start();
       console.log();
@@ -49562,7 +49562,7 @@ class CommandSet {
       }else {
         fs.writeFileSync(`${self.baseDir}/package.json`, JSON.stringify(newPackageJson, null, 2));
       }
-      await this.readAndWriteDir(path.resolve(__dirname + `../../qd-scripts/lib/template/${language}`));
+      await this.readAndWriteDir(path.resolve(__dirname, `../qd-scripts/lib/template/${language}`));
       //spinner.succeed(chalk.green('项目创建成功'));
 
     } catch(err) {
@@ -49585,6 +49585,8 @@ class CommandSet {
         }else {
           newUrl = url.replace(self.templatePath,self.baseDir);
         }
+
+        console.log(newUrl);
         const mkdirStatus = await self.dirExists(path.parse(newUrl).dir);//判断是否存在文件夹，不存在就创建, 同一层级文件夹只在第一次创建
         if(!mkdirStatus){
           await self.dirExists(path.parse(newUrl).dir);//判断是否存在文件夹，不存在就创建
